@@ -1,0 +1,29 @@
+.site-title {
+	margin: 1rem 0;
+	max-width: 250px;
+
+	span {
+		clip: rect(1px, 1px, 1px, 1px);
+		position: absolute !important;
+		height: 1px;
+		width: 1px;
+		overflow: hidden;
+		word-wrap: normal !important;
+	}
+}
+
+.site-nav {
+	line-height: 86px;
+}
+
+.footer-col-1 {
+	width: calc(30% - (30px / 2));
+}
+
+.footer-col-2 {
+	width: calc(25% - (30px / 2));
+}
+
+.footer-col-3 {
+	width: calc(45% - (30px / 2));
+}
